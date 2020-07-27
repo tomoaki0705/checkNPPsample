@@ -1,0 +1,2 @@
+# checkNPPsample
+check nppiMirror
