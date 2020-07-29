@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10.0)
+project(checkNPPsample)
+find_package(CUDA REQUIRED)
+message(STATUS "CUDA_nppig_LIBRARY   : ${CUDA_nppig_LIBRARY}")
+message(STATUS "CUDA_nppi_LIBRARY    : ${CUDA_nppi_LIBRARY}")
+message(STATUS "CUDA_nppist_LIBRARY  : ${CUDA_nppist_LIBRARY}")  
